@@ -136,3 +136,22 @@ header{
     flex-direction: column;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
+.card:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 1px solid #dbd8b5;
+}
+
+.dados-item{
+    padding: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
